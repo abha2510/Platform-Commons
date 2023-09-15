@@ -1,0 +1,17 @@
+<div class="container">
+  <div *ngFor="let product of products" class="product-item">
+    <img [src]="product.image" alt="{{ product.name }}" />
+    <h2>{{ product.name }}</h2>
+    <p>Weight- {{ product.weight }}</p>
+    <p>Price- {{ product.price }}</p>
+
+    <button *ngIf="getQuantity(product) === 0" (click)="addToCart(product)">
+      Add to Cart
+    </button>
+    <div *ngIf="getQuantity(product) > 0">
+      <button (click)="decrement(product)">-</button>
+      {{ getQuantity(product) }}
+      <button (click)="increment(product)">+</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Rice",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.RTUrBJ6U5sLuJBo5V4jL0wHaEK&pid=Api&P=0&h=180",
+      "weight": "5kg",
+      "price": 100
+    },
+    {
+        "id": 2,
+        "name": "Urad Dal",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.ezFTHOU9HLiDbGt-Y6yYtgHaE2&pid=Api&P=0&h=180",
+        "weight": "5kg",
+        "price": 300
+      },
+      {
+        "id": 3,
+        "name": "Moong Dal",
+        "image": "https://tse1.mm.bing.net/th?id=OIP.YMoPOTFtcZ5KEs2oIMmI7gHaHa&pid=Api&P=0&h=180",
+        "weight": "5kg",
+        "price": 600
+      },
+      {
+        "id": 4,
+        "name": "Masoor Dal",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.kl03LNR6eGzRKlJzehZtXAHaHa&pid=Api&P=0&h=180",
+        "weight": "5kg",
+        "price": 300
+      },
+      {
+        "id": 5,
+        "name": "Wheat",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.v_0ECe0LTnlBKGL83zxCmQHaEc&pid=Api&P=0&h=180",
+        "weight": "5kg",
+        "price": 1200
+      },
+      {
+        "id": 6,
+        "name": "Chana",
+        "image": "https://tse1.mm.bing.net/th?id=OIP.PEoU1gWTTxqLv9fPpf_-_wHaE8&pid=Api&P=0&h=180",
+        "weight": "5kg",
+        "price": 800
+      },
+      {
+        "id": 7,
+        "name": "Sugar",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.SIJVn2tIvDtd-pB-4gw_tQHaE8&pid=Api&P=0&h=180",
+        "weight": "2kg",
+        "price": 600
+      },
+      {
+        "id": 8,
+        "name": "Kidney Beans",
+        "image": "https://tse3.mm.bing.net/th?id=OIP.JSHZYBVGw7je2WLRjIGPZQHaE8&pid=Api&P=0&h=180",
+        "weight": "1kg",
+        "price": 200
+      },
+      {
+        "id": 9,
+        "name": "Cashew Nut",
+        "image": "https://tse3.mm.bing.net/th?id=OIP.apm_Yb6megdwXfaUxfwJLAAAAA&pid=Api&P=0&h=180",
+        "weight": "1kg",
+        "price": 1200
+      }
+  ]
+  

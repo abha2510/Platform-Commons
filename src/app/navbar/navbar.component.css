@@ -1,0 +1,30 @@
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #5a5454;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top:0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  nav a.active {
+   font-weight: bolder;
+   font-size: 22px;
+   margin-top: 3px;
+  }
+  

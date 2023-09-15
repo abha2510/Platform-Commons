@@ -1,0 +1,15 @@
+<div class="content">
+    <div *ngFor="let item of cart" class="cart-summary">
+      <p>{{ item.name }} ({{ item.quantity }}) - ₹{{ item.price }}</p>
+    </div>
+
+    <div *ngIf="total > 0; else noOrder"> 
+        <p class="total">Total: {{ total }}</p>
+        <p class="order-confirmation">Your order is confirmed!</p>
+    </div>
+
+    <ng-template #noOrder> 
+        <p class="no-order">No Order</p>
+    </ng-template>
+</div>
+

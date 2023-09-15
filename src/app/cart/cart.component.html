@@ -1,0 +1,26 @@
+<div class="cart-container">
+  <div *ngIf="cart && cart.length">
+    <div *ngFor="let item of cart" class="cart-item">
+      <h2>{{ item.name }}</h2>
+      <p>{{ item.price }}</p>
+      <p>Quantity: {{ item.quantity }}</p>
+      <p (click)="removeFromCart(item.id)" class="delete">
+        <svg
+          width="30"
+          height="30"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="#ef4444"
+            d="M7 21q-.825 0-1.413-.588T5 19V6H4V4h5V3h6v1h5v2h-1v13q0 .825-.588 1.413T17 21H7Zm2-4h2V8H9v9Zm4 0h2V8h-2v9Z"
+          />
+        </svg>
+      </p>
+    </div>
+    <p>Total: {{ total }}</p>
+    <button [routerLink]="['/confirm-order']">Checkout</button>
+  </div>
+
+  <div *ngIf="!cart || !cart.length">No products added.</div>
+</div>
