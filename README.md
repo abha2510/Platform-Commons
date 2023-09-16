@@ -1,27 +1,61 @@
-# AngularEcommerce
+# Angular Shopping Cart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+### An elegant Angular project demonstrating a product catalogue with cart functionality.
 
-## Development server
+## Features
+- Display a list of products fetched from a JSON file.
+- Add products to the cart with quantity control.
+- The cart page displays the list of added products with the total order price.
+- Responsive design.
+- Bonus: Remove products from the cart & confirm order functionality.
+  
+## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### To get started: 
 
-## Code scaffolding
+1. Clone this repository: `git clone https://github.com/abha2510/Platform-Commons`
+  
+2. Install the dependencies `npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Run the application: `ng serve`
 
-## Build
+4. Visit http://localhost:4200/ to view the app.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Project Structure
+- src/assets/ - Contains the JSON file with the list of products.
+- src/app/catalogue/ - Components & services related to the catalogue page.
+- src/app/cart/ - Components & services related to the cart/basket page.
+ 
+## Features Overview
 
-## Running unit tests
+#### Catalogue Page
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Displays products with their respective details: Name, Image, Weight, and Price.
+- "Add to Cart" button below each product to add to the cart.
+- Quantity control buttons appear once a product is added to the cart.
+- Cart icon which navigates to the cart page.
+![1](https://github.com/abha2510/Platform-Commons/assets/107466839/a56697e3-aea6-49f0-8361-92278ec73b25)
+![2](https://github.com/abha2510/Platform-Commons/assets/107466839/55fbcbd5-6ed9-41dc-bd14-b2749ebb6554)
 
-## Running end-to-end tests
+  
+#### Cart Page
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Displays the list of added products: Name, Price, and Quantity.
+- Shows the order total and estimated delivery date.
+ ![3](https://github.com/abha2510/Platform-Commons/assets/107466839/812b60a5-a513-4aec-874a-bd5d36c2a0ba)
+- For an empty cart, a "No product added" message is displayed.
+ ![5](https://github.com/abha2510/Platform-Commons/assets/107466839/675d54a2-df9a-4cdf-8a26-472a5ee1c408)
+- Bonus: A remove button to remove products and a checkout button to confirm the order.
 
-## Further help
+  
+#### Responsiveness
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The UI has been designed with responsiveness in mind to ensure a seamless experience across devices.
+![6](https://github.com/abha2510/Platform-Commons/assets/107466839/e67758cd-5257-4551-9a2b-6d827ca90b74)
+![9](https://github.com/abha2510/Platform-Commons/assets/107466839/71f165fd-9a69-4bbd-b028-d7f25eb1bbda)
+![7](https://github.com/abha2510/Platform-Commons/assets/107466839/fd29ca1d-3fd6-42ec-b0a5-334e60e86fc3)
+![8](https://github.com/abha2510/Platform-Commons/assets/107466839/964194ec-20d7-45a0-9c22-cf1b85b5947e)
+
+
+
+
